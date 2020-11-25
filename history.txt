@@ -24,3 +24,42 @@
    24  git remote add origin https://github.com/prasadvln/Mytest.git
    25  git push origin master
    26  history >>history.txt
+    1  sudo -s
+    2  sudo apt install gnome-shell-extension-autohidetopbar
+    3  sudo -s
+    4  git init Mytest
+    5  cd Mytest/
+    6  gedit README
+    7  gedit sample.c
+    8  ls
+    9  git add README
+   10  ls
+   11  git add README
+   12  git add sample.c 
+   13  git commit -m "first"
+   14  git config --global user.name "prasad"
+   15  git config --global user.email "prasadvln4@gmail.com"
+   16  git commit -m "first"
+   17  vi a.c
+   18  gcc a.c
+   19  apt-get install gcc
+   20  sudo -s
+   21  ls
+   22  cd Mytest/
+   23  ls
+   24  git remote add origin https://github.com/prasadvln/Mytest.git
+   25  git push origin master
+   26  history >>history.txt
+   27  gedit history.txt 
+   28  git add history.txt 
+   29  git commit -m "history for git setup"
+   30  git push origin master
+   31  git checkout -b arrays  ----creatng new branch
+   32  git branch
+   33  git branch arrays
+   34  git checkout master 
+   35  ls
+   36  git checkout arrays 
+   37  ls
+   38  git checkout master 
+   39  history >>history.txt 
